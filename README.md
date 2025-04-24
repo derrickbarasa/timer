@@ -4,7 +4,7 @@
 #include <windows.h>
 #else
 #include <unistd.h>
-#endif
+#end if
 
 
 void delay(int milliseconds) {
