@@ -35,7 +35,7 @@ int main() {
         printf("\rTime remaining: %02d:%02d", current_minutes, current_seconds);
         fflush(stdout); 
 
-        delay(1000); 
+        delay(1000);
         total_seconds--;
     }
 
